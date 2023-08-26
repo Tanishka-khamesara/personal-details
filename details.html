@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <div>
+            <legend>Personal Details</legend>
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" /><br><br>
+            <label for="middlename">Middlename</label>
+            <input type="text" name="middlename:" /><br><br>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname:" /><br><br>
+        </div>
+        <div>
+            <label for="Course">Course:</label>
+        <select>
+            <option>Course</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.TECH</option>
+            <option>MBA</option>
+            <option>MCA</option>
+            <option>M.TECH</option><br><br>
+        </select><br><br>
+        </div>
+        <div>
+            <label for="gender">Gender :</label><br>
+        <input type="radio" value="male" name="gender"/>
+        <label>Male</label><br>
+        <input type="radio" value="female" name="gender"/>
+        <label>Female</label><br>
+        <input type="radio" value="others" name="gender"/>
+        <label>Others</label><br><br>
+        </div>
+        <div>
+            <label for="date">DOB</label>
+            <input type="datetime-local" name="date"/>
+        </div>
+        <div>
+        <label for="phone">Phone :</label>
+        <input disabled type="" value="+91" readonly size="2"/>
+        <input type="tel" id="phone" maxlength="10" size="10">
+        </div><br><br>
+        <div>
+            <label for="address">Address</label>
+            <br>
+            <textarea rows="5" cols="80" size="10" name="address"></textarea>
+
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email"><br><br>
+        </div><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password"><br><br>
+        </div><br>
+        <div>
+            <label for="re-type password">Re-type password:</label>
+            <input type="password" name="re-type password"/><br><br>
+        </div>
+        <div>
+            <input type="checkbox" >
+            <label>Agree to terms and conditions</label>
+        </div><br>
+        <div>
+            <label>Choose File</label>
+            <input type="file"><br><br>
+        </div>
+        <div>
+            <label>Choose Color</label>
+            <input type="color"/><br><br>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+
+    </fieldset>
+</body>
+</html>
